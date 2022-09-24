@@ -1,0 +1,37 @@
+/*===========================
+    1. COMMON css 
+===========================*/
+body {
+	font-family: $main-font;
+	font-weight: normal;
+	font-style: normal;
+    color: $body-text-color;
+    background: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover{
+	text-decoration: none;
+	color: $theme-color-dark;
+}
+
+a{
+	color: $theme-color;
+}
